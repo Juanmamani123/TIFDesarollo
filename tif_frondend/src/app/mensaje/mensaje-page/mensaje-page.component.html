@@ -1,0 +1,6 @@
+<p>mensaje-page works!</p>
+<div *ngIf="mensajes.length > 0">
+  <h3>Mensaje aleatorio:</h3>
+  <p>{{ mensajes[randomIndex]?.mensaje }}</p>
+</div>
+<button type="button" routerLink="/">Volver al inicio</button>
