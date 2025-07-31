@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+
+    background-color: #1a94c4;
+    
+            display: flex;
+            justify-content: center;
+            /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+            min-height: 100vh;
+            /* Asegura que el contenedor ocupe al menos toda la altura de la ventana */
+            margin: 0;
+            /* Elimina los márgenes predeterminados del body */
+        
+}
+.boton-cool {
+    /* Estilo base del botón */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    /* Color del texto */
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    /* Gradiente de fondo */
+    border: none;
+    border-radius: 50px;
+    /* Bordes redondos para un look moderno */
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Transición suave para todos los cambios */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Sombra inicial */
+}
+
+/* Efecto al pasar el mouse por encima */
+.boton-cool:hover {
+    transform: translateY(-3px);
+    /* El botón se mueve ligeramente hacia arriba */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    /* La sombra se hace más grande y más oscura */
+}
+
+/* Efecto al hacer clic en el botón */
+.boton-cool:active {
+    transform: translateY(0);
+    /* El botón vuelve a su posición original, simulando un "clic" */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    /* La sombra se reduce */
+}
+.borde-2025 {
+    /* Propiedades del contenedor */
+    padding: 20px;
+    background-color: #ffffff;
+    /* Fondo blanco para que el borde y la sombra destaquen */
+    border-radius: 12px;
+    /* Esquinas ligeramente redondeadas, una tendencia actual */
+
+    /* Borde con gradiente */
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%),
+        linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    /* Sombra suave y moderna */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
